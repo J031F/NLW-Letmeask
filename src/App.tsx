@@ -7,8 +7,6 @@ import { NewRoom } from "./pages/NewRoom";
 import { Room } from "./pages/Room";
 
 function App() {
-
-
   return (
     <BrowserRouter>
       <AuthContextProvider>

@@ -6,6 +6,7 @@ import logoImg from '../assets/images/logo.svg'
 import googleIconImg from '../assets/images/google-icon.svg'
 
 import { Button } from '../components/Button'
+import { database } from '../services/firebase';
 
 import '../styles/auth.scss'
 import { useAuth } from '../hooks/useAuth';
@@ -27,6 +28,18 @@ export function Home() {
   async function handlejoinRoom(event: FormEvent) {
     event.preventDefault()
 
+    if (roomCode.trim() === '') {
+      return;
+    }
+
+    const roomRef = await database.ref(`/rooms/${roomCode}`).get()
+
+    if (!roomRef.exists()) {
+      alert('Room dos not exits.');
+      return;
+    }
+
+    history.push(`/rooms/${roomCode}`);
   }
 
   return (
