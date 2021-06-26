@@ -14,7 +14,7 @@
 # misc
 .firebaserc
 .firebase
-.github
+.github/workflows
 .DS_Store
 .env.local
 .env.development.local
