@@ -82,7 +82,7 @@ export function AdminRoom() {
               >
                 {!question.isAnswered && (
                   <>
-                   <button
+                    <button
                       type="button"
                       onClick={() => handleCheckQuestionAsAnswered(question.id)}
                     >
