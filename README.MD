@@ -7,7 +7,6 @@
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-como-executar">Como executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-licença">Licença</a>
 </p>
 
 <br>
@@ -26,7 +25,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Letmeask é um aplicativo para perguntas e respostas em tempo real, com uso, por exemplo, em transmissões ao vivo quando se deseja ver as principais perguntas do público, mas, na maior parte das vezes, as plataformas não possuem uma ferramenta que possibilite isso. é ai que entra o Letmeask!
+Letmeask é um aplicativo para perguntas e respostas em tempo real, com uso, por exemplo, em transmissões ao vivo quando se deseja ver as principais perguntas do público, mas, na maior parte das vezes, as plataformas não possuem uma ferramenta que possibilite isso, é ai que entra o Letmeask!
 
 ## 🔖 Layout
 
@@ -39,9 +38,3 @@ Você pode visualizar o layout do projeto através [desse link](https://www.figm
 - Inicie o servidor com `yarn dev`
 
 Agora você pode acessar [`localhost:3000`](http://localhost:3000) do seu navegador.
-
-## 📄 Licença
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
-
----
