@@ -12,8 +12,9 @@
 <br>
 
 <p align="center">
-  <img alt="Happy" src=".github/letmeask-tela-1.png" width="100%" margin-bottom="16px">
-  <img alt="Happy" src=".github/letmeask-tela-2.png" width="100%">
+  <img alt="Happy" src=".github/letmeask-tela-1.png" width="100%" margin-bottom="18px">
+  <img alt="Happy" src=".github/letmeask-tela-2.png" width="100%" margin-bottom="18px">
+  <img alt="Happy" src=".github/letmeask-tela-3.png" width="100%" margin-bottom="18px">
 </p>
 
 ## ✨ Tecnologias
