@@ -4,6 +4,7 @@ import logoImg from '../assets/images/logo.svg';
 import deleteImg from '../assets/images/delete.svg';
 import checkImg from '../assets/images/check.svg';
 import answerImg from '../assets/images/answer.svg';
+import emptyImg from '../assets/images/empty-questions.svg';
 
 import { Button } from '../components/Button';
 import { Question } from '../components/Question';
@@ -71,7 +72,13 @@ export function AdminRoom() {
         </div>
 
         <div className="question-list">
-          {questions.map(question => {
+          {questions.length === 0 ?
+            <div className="noQuestions">
+              <img src={emptyImg} alt="Não há perguntas" />
+              <h1>Nenhuma pergunta por aqui...</h1>
+              <div>Envie o código desta sala para seus amigos e comece a responder perguntas!</div>
+            </div>
+          : questions.map(question => {
             return (
               <Question
                 key={question.id}

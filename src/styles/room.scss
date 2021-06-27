@@ -106,6 +106,28 @@
 
     .question-list {
       margin-top: 32px;
+
+      .noQuestions {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 320px;
+        text-align: center;
+        margin: auto;
+
+        > img {
+          align-self: center;
+        }
+        h1 {
+          font: 700 18px 'Poppins', sans-serif;
+          margin-top: 16px;
+        }
+        div {
+          font: 14px 'Roboto', sans-serif;
+          height: 21px;
+          margin-top: 16px;
+        }
+      }
     }
   }
 }
